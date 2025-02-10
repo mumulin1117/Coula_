@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UITCommutytHallowcos" customModule="MuniCmulacati" customModuleProvider="target">
+            <connections>
+                <outlet property="usertopShingBGView" destination="r9C-xS-isi" id="w7N-6j-TIb"/>
+                <outlet property="view" destination="5Oj-mu-y5I" id="J6e-qQ-ZWq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="5Oj-mu-y5I">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="donguitaibguIT" translatesAutoresizingMaskIntoConstraints="NO" id="LDs-Pb-3xn">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pickAionebg_bg_bj" translatesAutoresizingMaskIntoConstraints="NO" id="r9C-xS-isi">
+                    <rect key="frame" x="12" y="123" width="351" height="156"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="156" id="VRq-Yy-GyV"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5d-Iy-y9h" userLabel="notimesgUIT">
+                    <rect key="frame" x="321" y="51" width="42" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="Pkh-6X-b5b"/>
+                        <constraint firstAttribute="width" constant="42" id="UPJ-6f-Qr9"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="dynUIT_publish"/>
+                    <connections>
+                        <action selector="postingingHLWUIT:" destination="-1" eventType="touchUpInside" id="WMl-5M-Dcr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="51" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKY-Ui-cqS">
+                    <rect key="frame" x="134" y="49" width="118" height="46"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="pupoUIT_"/>
+                    <state key="selected" image="pupoUIT_sel"/>
+                    <connections>
+                        <action selector="pickItewrmChangewrUIT:" destination="-1" eventType="touchUpInside" id="gRc-UV-P5Q"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="50" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDa-MV-ls0">
+                    <rect key="frame" x="12" y="51" width="112" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="bPY-5u-oZR"/>
+                        <constraint firstAttribute="width" constant="112" id="fy8-HN-orj"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="foryouUIT"/>
+                    <state key="selected" image="foryouUIT_sel"/>
+                    <connections>
+                        <action selector="pickItewrmChangewrUIT:" destination="-1" eventType="touchUpInside" id="5a0-25-7eT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="SXT-7X-LEC"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="LDs-Pb-3xn" firstAttribute="trailing" secondItem="SXT-7X-LEC" secondAttribute="trailing" id="4kK-Tz-fCh"/>
+                <constraint firstItem="gKY-Ui-cqS" firstAttribute="centerY" secondItem="LDa-MV-ls0" secondAttribute="centerY" id="BZ2-lI-OiI"/>
+                <constraint firstItem="r9C-xS-isi" firstAttribute="top" secondItem="gKY-Ui-cqS" secondAttribute="bottom" constant="28" id="DOQ-do-mb0"/>
+                <constraint firstAttribute="bottom" secondItem="LDs-Pb-3xn" secondAttribute="bottom" id="HeP-b2-TTs"/>
+                <constraint firstItem="gKY-Ui-cqS" firstAttribute="width" secondItem="LDa-MV-ls0" secondAttribute="width" multiplier="1.05357" id="LwS-TP-qir"/>
+                <constraint firstItem="LDs-Pb-3xn" firstAttribute="leading" secondItem="SXT-7X-LEC" secondAttribute="leading" id="MzW-3f-dfC"/>
+                <constraint firstItem="gKY-Ui-cqS" firstAttribute="height" secondItem="LDa-MV-ls0" secondAttribute="height" multiplier="1.09524" id="ZcT-qU-fuy"/>
+                <constraint firstItem="LDa-MV-ls0" firstAttribute="top" secondItem="SXT-7X-LEC" secondAttribute="top" constant="31" id="d5Z-aL-HxO"/>
+                <constraint firstItem="LDa-MV-ls0" firstAttribute="leading" secondItem="5Oj-mu-y5I" secondAttribute="leading" constant="12" id="eqU-mG-bdf"/>
+                <constraint firstItem="r9C-xS-isi" firstAttribute="centerX" secondItem="5Oj-mu-y5I" secondAttribute="centerX" id="hfu-cx-AcK"/>
+                <constraint firstItem="s5d-Iy-y9h" firstAttribute="centerY" secondItem="gKY-Ui-cqS" secondAttribute="centerY" id="iXO-ID-Q0A"/>
+                <constraint firstItem="SXT-7X-LEC" firstAttribute="trailing" secondItem="r9C-xS-isi" secondAttribute="trailing" constant="12" id="jbN-kD-4gh"/>
+                <constraint firstItem="LDs-Pb-3xn" firstAttribute="top" secondItem="5Oj-mu-y5I" secondAttribute="top" id="mfS-9x-IVb"/>
+                <constraint firstAttribute="trailing" secondItem="s5d-Iy-y9h" secondAttribute="trailing" constant="12" id="otr-US-DEk"/>
+                <constraint firstItem="gKY-Ui-cqS" firstAttribute="leading" secondItem="LDa-MV-ls0" secondAttribute="trailing" constant="10" id="pax-Op-Ywz"/>
+                <constraint firstItem="r9C-xS-isi" firstAttribute="leading" secondItem="SXT-7X-LEC" secondAttribute="leading" constant="12" id="yDC-Gu-15B"/>
+            </constraints>
+            <point key="canvasLocation" x="136.875" y="20.070422535211268"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="donguitaibguIT" width="375" height="812"/>
+        <image name="dynUIT_publish" width="42" height="42"/>
+        <image name="foryouUIT" width="112" height="46"/>
+        <image name="foryouUIT_sel" width="112" height="46"/>
+        <image name="pickAionebg_bg_bj" width="351" height="292"/>
+        <image name="pupoUIT_" width="112" height="46"/>
+        <image name="pupoUIT_sel" width="112" height="46"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

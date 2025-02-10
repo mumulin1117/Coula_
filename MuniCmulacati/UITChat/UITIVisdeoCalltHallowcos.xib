@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UITIVisdeoCalltHallowcos" customModule="MuniCmulacati" customModuleProvider="target">
+            <connections>
+                <outlet property="bgmineUITLayert" destination="dg2-SX-ZOr" id="ree-uA-wbL"/>
+                <outlet property="othertHoldereUITLayert" destination="zi9-AG-nNs" id="mfd-dV-sh6"/>
+                <outlet property="seeanmrnIT" destination="CuK-2F-9Q6" id="Fn0-Mf-CcH"/>
+                <outlet property="view" destination="JCZ-T6-ZzW" id="fEw-wF-DrH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="JCZ-T6-ZzW">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="siginbigbg_UIT" translatesAutoresizingMaskIntoConstraints="NO" id="dg2-SX-ZOr">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfH-4a-Cr8">
+                    <rect key="frame" x="60" y="70" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Pqp-iD-hLg"/>
+                        <constraint firstAttribute="width" constant="46" id="Z82-p5-E97"/>
+                    </constraints>
+                    <menu key="menu" id="DBm-Ki-dgP">
+                        <children>
+                            <command title="Item 1" id="d14-rP-K8T"/>
+                            <command title="Item 2" id="ZdQ-o2-bnd"/>
+                        </children>
+                    </menu>
+                    <state key="normal" title="UITuo"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayW-ME-WFp">
+                    <rect key="frame" x="276.66666666666669" y="717.66666666666663" width="51" height="61"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="swiftshipine_uit"/>
+                    <connections>
+                        <action selector="oheertnoweingUITClick:" destination="-1" eventType="touchUpInside" id="MbU-Mv-9UG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqY-8G-2O2">
+                    <rect key="frame" x="166.66666666666666" y="718" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="X1a-7M-fGV"/>
+                        <constraint firstAttribute="height" constant="60" id="h3Y-3x-fQS"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="swiftghuan_uit"/>
+                    <connections>
+                        <action selector="oheertnoweingUITClick:" destination="-1" eventType="touchUpInside" id="Asq-jx-e7Y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROa-ej-hFA">
+                    <rect key="frame" x="65.666666666666671" y="717.66666666666663" width="51" height="61"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="swiftgvoide_uit"/>
+                    <connections>
+                        <action selector="oheertnoweingUITClick:" destination="-1" eventType="touchUpInside" id="C0Y-BH-aoS"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CuK-2F-9Q6">
+                    <rect key="frame" x="173.33333333333334" y="74.333333333333329" width="46.666666666666657" height="21.666666666666671"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wuUITtouxiang" translatesAutoresizingMaskIntoConstraints="NO" id="zi9-AG-nNs">
+                    <rect key="frame" x="262" y="132" width="96" height="152"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="152" id="8tC-Gj-r2u"/>
+                        <constraint firstAttribute="width" constant="96" id="zfE-6b-ih9"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpb-pv-qAU">
+                    <rect key="frame" x="347" y="70" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="aN2-gV-Iyw"/>
+                        <constraint firstAttribute="height" constant="30" id="bQk-zx-shz"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="mowerUIT"/>
+                    <connections>
+                        <action selector="noeengUITpock:" destination="-1" eventType="touchUpInside" id="o5G-q3-0Rg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khg-KN-N8i">
+                    <rect key="frame" x="16" y="73" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="OEH-wY-fQ5"/>
+                        <constraint firstAttribute="height" constant="24" id="ls5-3l-RKk"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="paUIT_back"/>
+                    <connections>
+                        <action selector="noeengUITpock:" destination="-1" eventType="touchUpInside" id="Ybr-Fn-1eM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="602-mC-0g6">
+                    <rect key="frame" x="164.66666666666666" y="619" width="64" height="64"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="uithuad"/>
+                    <connections>
+                        <action selector="DeclineanoweingUITClick:" destination="-1" eventType="touchUpInside" id="Th9-zG-Abh"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="connecting..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isR-VZ-1eh">
+                    <rect key="frame" x="141" y="574" width="111" height="22"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nnl-9H-A2v">
+                    <rect key="frame" x="287" y="301" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Rgd-it-CHh"/>
+                        <constraint firstAttribute="width" constant="46" id="mPw-mA-uBf"/>
+                    </constraints>
+                    <menu key="menu" id="hdQ-2K-Jdu">
+                        <children>
+                            <command title="Item 1" id="TFN-W3-0aF"/>
+                            <command title="Item 2" id="ZTB-9c-3SO"/>
+                        </children>
+                    </menu>
+                    <state key="normal" title="UITuo"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="F62-4B-Wnh"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ayW-ME-WFp" firstAttribute="height" secondItem="bqY-8G-2O2" secondAttribute="height" multiplier="1.01667" id="0wj-PH-4bo"/>
+                <constraint firstItem="CuK-2F-9Q6" firstAttribute="centerY" secondItem="khg-KN-N8i" secondAttribute="centerY" id="4dh-h0-zNf"/>
+                <constraint firstItem="bqY-8G-2O2" firstAttribute="centerX" secondItem="JCZ-T6-ZzW" secondAttribute="centerX" id="81f-bv-LRz"/>
+                <constraint firstItem="isR-VZ-1eh" firstAttribute="centerX" secondItem="602-mC-0g6" secondAttribute="centerX" id="8zo-Pi-Ugf"/>
+                <constraint firstItem="CuK-2F-9Q6" firstAttribute="centerX" secondItem="JCZ-T6-ZzW" secondAttribute="centerX" id="FpE-xC-LoI"/>
+                <constraint firstItem="bfH-4a-Cr8" firstAttribute="leading" secondItem="khg-KN-N8i" secondAttribute="trailing" constant="20" id="HO7-nw-2PU"/>
+                <constraint firstItem="ayW-ME-WFp" firstAttribute="centerY" secondItem="bqY-8G-2O2" secondAttribute="centerY" id="I4P-2i-iYd"/>
+                <constraint firstItem="602-mC-0g6" firstAttribute="centerX" secondItem="bqY-8G-2O2" secondAttribute="centerX" id="KKr-rn-7T6"/>
+                <constraint firstItem="bqY-8G-2O2" firstAttribute="leading" secondItem="ROa-ej-hFA" secondAttribute="trailing" constant="50" id="NG8-FJ-otq"/>
+                <constraint firstItem="Dpb-pv-qAU" firstAttribute="top" secondItem="F62-4B-Wnh" secondAttribute="top" constant="11" id="NJL-bA-H1j"/>
+                <constraint firstItem="602-mC-0g6" firstAttribute="top" secondItem="isR-VZ-1eh" secondAttribute="bottom" constant="23" id="NZk-o0-jG3"/>
+                <constraint firstItem="bfH-4a-Cr8" firstAttribute="centerY" secondItem="khg-KN-N8i" secondAttribute="centerY" id="OTc-JH-BxJ"/>
+                <constraint firstItem="ROa-ej-hFA" firstAttribute="height" secondItem="bqY-8G-2O2" secondAttribute="height" multiplier="1.01667" id="QeX-bX-HHm"/>
+                <constraint firstItem="F62-4B-Wnh" firstAttribute="bottom" secondItem="bqY-8G-2O2" secondAttribute="bottom" constant="40" id="Qwi-SP-ntV"/>
+                <constraint firstItem="ROa-ej-hFA" firstAttribute="centerY" secondItem="bqY-8G-2O2" secondAttribute="centerY" id="WTO-EV-SFY"/>
+                <constraint firstItem="khg-KN-N8i" firstAttribute="leading" secondItem="F62-4B-Wnh" secondAttribute="leading" constant="16" id="Wa0-ST-GAG"/>
+                <constraint firstItem="Nnl-9H-A2v" firstAttribute="centerX" secondItem="zi9-AG-nNs" secondAttribute="centerX" id="Whd-GR-g5B"/>
+                <constraint firstItem="F62-4B-Wnh" firstAttribute="trailing" secondItem="zi9-AG-nNs" secondAttribute="trailing" constant="35" id="aze-HP-gks"/>
+                <constraint firstItem="dg2-SX-ZOr" firstAttribute="trailing" secondItem="F62-4B-Wnh" secondAttribute="trailing" id="ceh-XA-Y1E"/>
+                <constraint firstItem="ayW-ME-WFp" firstAttribute="leading" secondItem="bqY-8G-2O2" secondAttribute="trailing" constant="50" id="gb2-bK-8ld"/>
+                <constraint firstItem="bqY-8G-2O2" firstAttribute="top" secondItem="602-mC-0g6" secondAttribute="bottom" constant="35" id="iGe-dB-9qr"/>
+                <constraint firstItem="khg-KN-N8i" firstAttribute="centerY" secondItem="Dpb-pv-qAU" secondAttribute="centerY" id="m0g-4Z-nn1"/>
+                <constraint firstItem="F62-4B-Wnh" firstAttribute="trailing" secondItem="Dpb-pv-qAU" secondAttribute="trailing" constant="16" id="mLS-y2-0n1"/>
+                <constraint firstItem="zi9-AG-nNs" firstAttribute="top" secondItem="Dpb-pv-qAU" secondAttribute="bottom" constant="32" id="o61-2J-z2g"/>
+                <constraint firstItem="dg2-SX-ZOr" firstAttribute="leading" secondItem="F62-4B-Wnh" secondAttribute="leading" id="v7M-tz-E4e"/>
+                <constraint firstItem="ROa-ej-hFA" firstAttribute="width" secondItem="bqY-8G-2O2" secondAttribute="width" multiplier="0.85" id="vO5-0y-uHU"/>
+                <constraint firstItem="ayW-ME-WFp" firstAttribute="width" secondItem="bqY-8G-2O2" secondAttribute="width" multiplier="0.85" id="vpQ-qU-fnd"/>
+                <constraint firstItem="Nnl-9H-A2v" firstAttribute="top" secondItem="zi9-AG-nNs" secondAttribute="bottom" constant="17" id="wbo-3a-Xvl"/>
+                <constraint firstAttribute="bottom" secondItem="dg2-SX-ZOr" secondAttribute="bottom" id="xLg-Mg-9H0"/>
+                <constraint firstItem="dg2-SX-ZOr" firstAttribute="top" secondItem="JCZ-T6-ZzW" secondAttribute="top" id="zpv-mU-f59"/>
+            </constraints>
+            <point key="canvasLocation" x="135.1145038167939" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mowerUIT" width="24" height="24"/>
+        <image name="paUIT_back" width="24" height="24"/>
+        <image name="siginbigbg_UIT" width="375" height="812"/>
+        <image name="swiftghuan_uit" width="60" height="60"/>
+        <image name="swiftgvoide_uit" width="65" height="65"/>
+        <image name="swiftshipine_uit" width="65" height="65"/>
+        <image name="uithuad" width="64" height="64"/>
+        <image name="wuUITtouxiang" width="42.666667938232422" height="42.666667938232422"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

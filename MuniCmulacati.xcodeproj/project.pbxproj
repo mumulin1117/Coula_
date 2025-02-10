@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044BFDE82D15115100A93A39 /* UITMinAboutusHallwu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BFDE62D15115100A93A39 /* UITMinAboutusHallwu.swift */; };
+		044BFDE92D15115200A93A39 /* UITMinAboutusHallwu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044BFDE72D15115100A93A39 /* UITMinAboutusHallwu.xib */; };
+		044BFDEC2D15169600A93A39 /* UITSuserlistfoHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044BFDEB2D15169600A93A39 /* UITSuserlistfoHallowcos.xib */; };
+		044BFDED2D15169600A93A39 /* UITSuserlistfoHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BFDEA2D15169600A93A39 /* UITSuserlistfoHallowcos.swift */; };
+		0463D95D2D114C4F00D6B925 /* UITPartyBottomGiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463D95C2D114C4F00D6B925 /* UITPartyBottomGiftView.swift */; };
+		0463D9602D11533A00D6B925 /* UITPartyGiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463D95E2D11533A00D6B925 /* UITPartyGiftCell.swift */; };
+		0463D9612D11533A00D6B925 /* UITPartyGiftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0463D95F2D11533A00D6B925 /* UITPartyGiftCell.xib */; };
+		0463D9652D1161EF00D6B925 /* UITPartyMeasgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463D9642D1161EF00D6B925 /* UITPartyMeasgCell.swift */; };
+		0463D9672D11644900D6B925 /* UITPartyMeasggisftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463D9662D11644900D6B925 /* UITPartyMeasggisftCell.swift */; };
+		0463D96B2D12729500D6B925 /* UITCreateHLWPartHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463D9692D12729500D6B925 /* UITCreateHLWPartHallowcos.swift */; };
+		0463D96C2D12729500D6B925 /* UITCreateHLWPartHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0463D96A2D12729500D6B925 /* UITCreateHLWPartHallowcos.xib */; };
+		0463D96F2D127A0B00D6B925 /* UITMinHLWPartHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463D96D2D127A0B00D6B925 /* UITMinHLWPartHallowcos.swift */; };
+		0463D9702D127A0B00D6B925 /* UITMinHLWPartHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0463D96E2D127A0B00D6B925 /* UITMinHLWPartHallowcos.xib */; };
+		0463D9732D129E2400D6B925 /* UITAIAvatoeSetWPartHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463D9712D129E2400D6B925 /* UITAIAvatoeSetWPartHallowcos.swift */; };
+		0463D9742D129E2400D6B925 /* UITAIAvatoeSetWPartHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0463D9722D129E2400D6B925 /* UITAIAvatoeSetWPartHallowcos.xib */; };
+		046AE1442D0FBBC000BF350F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046AE13B2D0FBBC000BF350F /* Assets.xcassets */; };
+		046AE1462D0FBBC000BF350F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046AE13E2D0FBBC000BF350F /* LaunchScreen.storyboard */; };
+		046AE1482D0FBBC000BF350F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE13A2D0FBBC000BF350F /* AppDelegate.swift */; };
+		046AE14E2D0FC0F100BF350F /* UITSignHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE14D2D0FC0F100BF350F /* UITSignHallowcos.xib */; };
+		046AE14F2D0FC0F100BF350F /* UITSignHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE14C2D0FC0F100BF350F /* UITSignHallowcos.swift */; };
+		046AE1522D0FC10500BF350F /* UITEluasHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE1512D0FC10500BF350F /* UITEluasHallowcos.xib */; };
+		046AE1532D0FC10500BF350F /* UITEluasHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE1502D0FC10500BF350F /* UITEluasHallowcos.swift */; };
+		046AE1552D0FC13500BF350F /* UITBottleHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE1542D0FC13500BF350F /* UITBottleHallowcos.swift */; };
+		046AE1592D0FC18200BF350F /* UITPartyHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE1582D0FC18200BF350F /* UITPartyHallowcos.xib */; };
+		046AE15A2D0FC18200BF350F /* UITPartyHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE1572D0FC18200BF350F /* UITPartyHallowcos.swift */; };
+		046AE1612D0FC1EA00BF350F /* UITInChastHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE1602D0FC1EA00BF350F /* UITInChastHallowcos.xib */; };
+		046AE1622D0FC1EA00BF350F /* UITInChastHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE15F2D0FC1EA00BF350F /* UITInChastHallowcos.swift */; };
+		046AE1652D0FC21D00BF350F /* UITIVisdeoCalltHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE1642D0FC21D00BF350F /* UITIVisdeoCalltHallowcos.xib */; };
+		046AE1662D0FC21D00BF350F /* UITIVisdeoCalltHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE1632D0FC21D00BF350F /* UITIVisdeoCalltHallowcos.swift */; };
+		046AE16C2D0FC27B00BF350F /* UITSetupCommutytHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE16B2D0FC27B00BF350F /* UITSetupCommutytHallowcos.xib */; };
+		046AE16D2D0FC27B00BF350F /* UITSetupCommutytHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE16A2D0FC27B00BF350F /* UITSetupCommutytHallowcos.swift */; };
+		046AE1702D0FC28B00BF350F /* UITXQCommutytHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE16F2D0FC28B00BF350F /* UITXQCommutytHallowcos.xib */; };
+		046AE1712D0FC28B00BF350F /* UITXQCommutytHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE16E2D0FC28B00BF350F /* UITXQCommutytHallowcos.swift */; };
+		046AE1752D0FC35100BF350F /* UITRepotrytHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE1742D0FC35100BF350F /* UITRepotrytHallowcos.xib */; };
+		046AE1762D0FC35100BF350F /* UITRepotrytHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE1732D0FC35100BF350F /* UITRepotrytHallowcos.swift */; };
+		046AE17A2D0FC3A300BF350F /* UITMirenHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE1792D0FC3A300BF350F /* UITMirenHallowcos.xib */; };
+		046AE17B2D0FC3A300BF350F /* UITMirenHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE1782D0FC3A300BF350F /* UITMirenHallowcos.swift */; };
+		046AE17E2D0FC3B000BF350F /* UITHerHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE17D2D0FC3B000BF350F /* UITHerHallowcos.xib */; };
+		046AE17F2D0FC3B000BF350F /* UITHerHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE17C2D0FC3B000BF350F /* UITHerHallowcos.swift */; };
+		046AE1822D0FC3C700BF350F /* UITEdictINfoHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE1812D0FC3C700BF350F /* UITEdictINfoHallowcos.xib */; };
+		046AE1832D0FC3C700BF350F /* UITEdictINfoHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE1802D0FC3C700BF350F /* UITEdictINfoHallowcos.swift */; };
+		046AE1852D0FC3ED00BF350F /* UITWalentINfoHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE1842D0FC3ED00BF350F /* UITWalentINfoHallowcos.swift */; };
+		046AE1882D0FC3FE00BF350F /* UITSweetingNfoHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE1872D0FC3FE00BF350F /* UITSweetingNfoHallowcos.xib */; };
+		046AE1892D0FC3FE00BF350F /* UITSweetingNfoHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE1862D0FC3FE00BF350F /* UITSweetingNfoHallowcos.swift */; };
+		046AE18E2D0FC42A00BF350F /* UITFeedbackfoHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE18D2D0FC42A00BF350F /* UITFeedbackfoHallowcos.xib */; };
+		046AE18F2D0FC42A00BF350F /* UITFeedbackfoHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE18C2D0FC42A00BF350F /* UITFeedbackfoHallowcos.swift */; };
+		046AE1912D0FC46D00BF350F /* UITMindedcpsplk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE1902D0FC46D00BF350F /* UITMindedcpsplk.swift */; };
+		046AE1952D10157200BF350F /* UITCellPArtyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE1932D10157200BF350F /* UITCellPArtyListCell.swift */; };
+		046AE1962D10157200BF350F /* UITCellPArtyListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE1942D10157200BF350F /* UITCellPArtyListCell.xib */; };
+		046AE1982D101DF500BF350F /* UITpergerParty.plist in Resources */ = {isa = PBXBuildFile; fileRef = 046AE1972D101DF500BF350F /* UITpergerParty.plist */; };
+		046AE19C2D111A9400BF350F /* UITReadyPartyHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE19A2D111A9400BF350F /* UITReadyPartyHallowcos.swift */; };
+		046AE19D2D111A9400BF350F /* UITReadyPartyHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE19B2D111A9400BF350F /* UITReadyPartyHallowcos.xib */; };
+		046AE1A02D11208C00BF350F /* UITPartyLivewHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AE19F2D11208C00BF350F /* UITPartyLivewHallowcos.xib */; };
+		046AE1A12D11208C00BF350F /* UITPartyLivewHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AE19E2D11208C00BF350F /* UITPartyLivewHallowcos.swift */; };
+		04DB69E52D12C3B0003A043E /* UITCommutytHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB69E32D12C3B0003A043E /* UITCommutytHallowcos.swift */; };
+		04DB69E62D12C3B0003A043E /* UITCommutytHallowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DB69E42D12C3B0003A043E /* UITCommutytHallowcos.xib */; };
+		04DB69EA2D12C8AE003A043E /* UITCommutytlisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB69E82D12C8AE003A043E /* UITCommutytlisterCell.swift */; };
+		04DB69EB2D12C8AE003A043E /* UITCommutytlisterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DB69E92D12C8AE003A043E /* UITCommutytlisterCell.xib */; };
+		04DB69ED2D12CF19003A043E /* UITCommutyTiouserBu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB69EC2D12CF19003A043E /* UITCommutyTiouserBu.swift */; };
+		04DB69F02D13CB75003A043E /* UITCommentdetailHallwood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB69EE2D13CB75003A043E /* UITCommentdetailHallwood.swift */; };
+		04DB69F12D13CB75003A043E /* UITCommentdetailHallwood.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DB69EF2D13CB75003A043E /* UITCommentdetailHallwood.xib */; };
+		04E543482D2CD512006184BC /* UITLoakerinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543472D2CD512006184BC /* UITLoakerinder.swift */; };
+		04E5434A2D2CD59C006184BC /* UITLaunchwerHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543492D2CD59C006184BC /* UITLaunchwerHallowcos.swift */; };
+		04E5434C2D2CD6BD006184BC /* UITPretendLogrHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5434B2D2CD6BD006184BC /* UITPretendLogrHallowcos.swift */; };
+		04E5434E2D2CD6F9006184BC /* UITAreadyLogrHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5434D2D2CD6F9006184BC /* UITAreadyLogrHallowcos.swift */; };
+		04EE5D762D12AFA500B07780 /* UITAiCreatResultHalwllowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE5D742D12AFA500B07780 /* UITAiCreatResultHalwllowcos.swift */; };
+		04EE5D772D12AFA500B07780 /* UITAiCreatResultHalwllowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EE5D752D12AFA500B07780 /* UITAiCreatResultHalwllowcos.xib */; };
+		04EE5D7A2D12B5EF00B07780 /* UITMESAGHalwllowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE5D782D12B5EE00B07780 /* UITMESAGHalwllowcos.swift */; };
+		04EE5D7B2D12B5EF00B07780 /* UITMESAGHalwllowcos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EE5D792D12B5EE00B07780 /* UITMESAGHalwllowcos.xib */; };
+		04EFE6BD2D1416C30016A818 /* UITmesdChatUItCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFE6BC2D1416C30016A818 /* UITmesdChatUItCell.swift */; };
+		795BCA79ACF38AE7644DF2E0 /* Pods_MuniCmulacati.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02362C4D7610E7EE1E942D8 /* Pods_MuniCmulacati.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044BFDE62D15115100A93A39 /* UITMinAboutusHallwu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITMinAboutusHallwu.swift; sourceTree = "<group>"; };
+		044BFDE72D15115100A93A39 /* UITMinAboutusHallwu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITMinAboutusHallwu.xib; sourceTree = "<group>"; };
+		044BFDEA2D15169600A93A39 /* UITSuserlistfoHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITSuserlistfoHallowcos.swift; sourceTree = "<group>"; };
+		044BFDEB2D15169600A93A39 /* UITSuserlistfoHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITSuserlistfoHallowcos.xib; sourceTree = "<group>"; };
+		0463D95C2D114C4F00D6B925 /* UITPartyBottomGiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITPartyBottomGiftView.swift; sourceTree = "<group>"; };
+		0463D95E2D11533A00D6B925 /* UITPartyGiftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITPartyGiftCell.swift; sourceTree = "<group>"; };
+		0463D95F2D11533A00D6B925 /* UITPartyGiftCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITPartyGiftCell.xib; sourceTree = "<group>"; };
+		0463D9642D1161EF00D6B925 /* UITPartyMeasgCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITPartyMeasgCell.swift; sourceTree = "<group>"; };
+		0463D9662D11644900D6B925 /* UITPartyMeasggisftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITPartyMeasggisftCell.swift; sourceTree = "<group>"; };
+		0463D9692D12729500D6B925 /* UITCreateHLWPartHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITCreateHLWPartHallowcos.swift; sourceTree = "<group>"; };
+		0463D96A2D12729500D6B925 /* UITCreateHLWPartHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITCreateHLWPartHallowcos.xib; sourceTree = "<group>"; };
+		0463D96D2D127A0B00D6B925 /* UITMinHLWPartHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITMinHLWPartHallowcos.swift; sourceTree = "<group>"; };
+		0463D96E2D127A0B00D6B925 /* UITMinHLWPartHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITMinHLWPartHallowcos.xib; sourceTree = "<group>"; };
+		0463D9712D129E2400D6B925 /* UITAIAvatoeSetWPartHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITAIAvatoeSetWPartHallowcos.swift; sourceTree = "<group>"; };
+		0463D9722D129E2400D6B925 /* UITAIAvatoeSetWPartHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITAIAvatoeSetWPartHallowcos.xib; sourceTree = "<group>"; };
+		046AE1222D0FBBB800BF350F /* MuniCmulacati.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuniCmulacati.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046AE13A2D0FBBC000BF350F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046AE13B2D0FBBC000BF350F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046AE13C2D0FBBC000BF350F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046AE13D2D0FBBC000BF350F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046AE14C2D0FC0F100BF350F /* UITSignHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITSignHallowcos.swift; sourceTree = "<group>"; };
+		046AE14D2D0FC0F100BF350F /* UITSignHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITSignHallowcos.xib; sourceTree = "<group>"; };
+		046AE1502D0FC10500BF350F /* UITEluasHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITEluasHallowcos.swift; sourceTree = "<group>"; };
+		046AE1512D0FC10500BF350F /* UITEluasHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITEluasHallowcos.xib; sourceTree = "<group>"; };
+		046AE1542D0FC13500BF350F /* UITBottleHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITBottleHallowcos.swift; sourceTree = "<group>"; };
+		046AE1572D0FC18200BF350F /* UITPartyHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITPartyHallowcos.swift; sourceTree = "<group>"; };
+		046AE1582D0FC18200BF350F /* UITPartyHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITPartyHallowcos.xib; sourceTree = "<group>"; };
+		046AE15F2D0FC1EA00BF350F /* UITInChastHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITInChastHallowcos.swift; sourceTree = "<group>"; };
+		046AE1602D0FC1EA00BF350F /* UITInChastHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITInChastHallowcos.xib; sourceTree = "<group>"; };
+		046AE1632D0FC21D00BF350F /* UITIVisdeoCalltHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITIVisdeoCalltHallowcos.swift; sourceTree = "<group>"; };
+		046AE1642D0FC21D00BF350F /* UITIVisdeoCalltHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITIVisdeoCalltHallowcos.xib; sourceTree = "<group>"; };
+		046AE16A2D0FC27B00BF350F /* UITSetupCommutytHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITSetupCommutytHallowcos.swift; sourceTree = "<group>"; };
+		046AE16B2D0FC27B00BF350F /* UITSetupCommutytHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITSetupCommutytHallowcos.xib; sourceTree = "<group>"; };
+		046AE16E2D0FC28B00BF350F /* UITXQCommutytHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITXQCommutytHallowcos.swift; sourceTree = "<group>"; };
+		046AE16F2D0FC28B00BF350F /* UITXQCommutytHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITXQCommutytHallowcos.xib; sourceTree = "<group>"; };
+		046AE1732D0FC35100BF350F /* UITRepotrytHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITRepotrytHallowcos.swift; sourceTree = "<group>"; };
+		046AE1742D0FC35100BF350F /* UITRepotrytHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITRepotrytHallowcos.xib; sourceTree = "<group>"; };
+		046AE1782D0FC3A300BF350F /* UITMirenHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITMirenHallowcos.swift; sourceTree = "<group>"; };
+		046AE1792D0FC3A300BF350F /* UITMirenHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITMirenHallowcos.xib; sourceTree = "<group>"; };
+		046AE17C2D0FC3B000BF350F /* UITHerHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITHerHallowcos.swift; sourceTree = "<group>"; };
+		046AE17D2D0FC3B000BF350F /* UITHerHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITHerHallowcos.xib; sourceTree = "<group>"; };
+		046AE1802D0FC3C700BF350F /* UITEdictINfoHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITEdictINfoHallowcos.swift; sourceTree = "<group>"; };
+		046AE1812D0FC3C700BF350F /* UITEdictINfoHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITEdictINfoHallowcos.xib; sourceTree = "<group>"; };
+		046AE1842D0FC3ED00BF350F /* UITWalentINfoHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITWalentINfoHallowcos.swift; sourceTree = "<group>"; };
+		046AE1862D0FC3FE00BF350F /* UITSweetingNfoHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITSweetingNfoHallowcos.swift; sourceTree = "<group>"; };
+		046AE1872D0FC3FE00BF350F /* UITSweetingNfoHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITSweetingNfoHallowcos.xib; sourceTree = "<group>"; };
+		046AE18C2D0FC42A00BF350F /* UITFeedbackfoHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITFeedbackfoHallowcos.swift; sourceTree = "<group>"; };
+		046AE18D2D0FC42A00BF350F /* UITFeedbackfoHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITFeedbackfoHallowcos.xib; sourceTree = "<group>"; };
+		046AE1902D0FC46D00BF350F /* UITMindedcpsplk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITMindedcpsplk.swift; sourceTree = "<group>"; };
+		046AE1932D10157200BF350F /* UITCellPArtyListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITCellPArtyListCell.swift; sourceTree = "<group>"; };
+		046AE1942D10157200BF350F /* UITCellPArtyListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITCellPArtyListCell.xib; sourceTree = "<group>"; };
+		046AE1972D101DF500BF350F /* UITpergerParty.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UITpergerParty.plist; sourceTree = "<group>"; };
+		046AE19A2D111A9400BF350F /* UITReadyPartyHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITReadyPartyHallowcos.swift; sourceTree = "<group>"; };
+		046AE19B2D111A9400BF350F /* UITReadyPartyHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITReadyPartyHallowcos.xib; sourceTree = "<group>"; };
+		046AE19E2D11208C00BF350F /* UITPartyLivewHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITPartyLivewHallowcos.swift; sourceTree = "<group>"; };
+		046AE19F2D11208C00BF350F /* UITPartyLivewHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITPartyLivewHallowcos.xib; sourceTree = "<group>"; };
+		04AB9B742D3100ED00F427AD /* MuniCmulacati.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MuniCmulacati.entitlements; sourceTree = "<group>"; };
+		04DB69E32D12C3B0003A043E /* UITCommutytHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITCommutytHallowcos.swift; sourceTree = "<group>"; };
+		04DB69E42D12C3B0003A043E /* UITCommutytHallowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITCommutytHallowcos.xib; sourceTree = "<group>"; };
+		04DB69E82D12C8AE003A043E /* UITCommutytlisterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITCommutytlisterCell.swift; sourceTree = "<group>"; };
+		04DB69E92D12C8AE003A043E /* UITCommutytlisterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITCommutytlisterCell.xib; sourceTree = "<group>"; };
+		04DB69EC2D12CF19003A043E /* UITCommutyTiouserBu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITCommutyTiouserBu.swift; sourceTree = "<group>"; };
+		04DB69EE2D13CB75003A043E /* UITCommentdetailHallwood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITCommentdetailHallwood.swift; sourceTree = "<group>"; };
+		04DB69EF2D13CB75003A043E /* UITCommentdetailHallwood.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITCommentdetailHallwood.xib; sourceTree = "<group>"; };
+		04E543472D2CD512006184BC /* UITLoakerinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITLoakerinder.swift; sourceTree = "<group>"; };
+		04E543492D2CD59C006184BC /* UITLaunchwerHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITLaunchwerHallowcos.swift; sourceTree = "<group>"; };
+		04E5434B2D2CD6BD006184BC /* UITPretendLogrHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITPretendLogrHallowcos.swift; sourceTree = "<group>"; };
+		04E5434D2D2CD6F9006184BC /* UITAreadyLogrHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITAreadyLogrHallowcos.swift; sourceTree = "<group>"; };
+		04EE5D742D12AFA500B07780 /* UITAiCreatResultHalwllowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITAiCreatResultHalwllowcos.swift; sourceTree = "<group>"; };
+		04EE5D752D12AFA500B07780 /* UITAiCreatResultHalwllowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITAiCreatResultHalwllowcos.xib; sourceTree = "<group>"; };
+		04EE5D782D12B5EE00B07780 /* UITMESAGHalwllowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITMESAGHalwllowcos.swift; sourceTree = "<group>"; };
+		04EE5D792D12B5EE00B07780 /* UITMESAGHalwllowcos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITMESAGHalwllowcos.xib; sourceTree = "<group>"; };
+		04EFE6BC2D1416C30016A818 /* UITmesdChatUItCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITmesdChatUItCell.swift; sourceTree = "<group>"; };
+		27602C8CBA7225240DBFDCEA /* Pods-MuniCmulacati.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuniCmulacati.release.xcconfig"; path = "Target Support Files/Pods-MuniCmulacati/Pods-MuniCmulacati.release.xcconfig"; sourceTree = "<group>"; };
+		BB77F75FA54010898BC84592 /* Pods-MuniCmulacati.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuniCmulacati.debug.xcconfig"; path = "Target Support Files/Pods-MuniCmulacati/Pods-MuniCmulacati.debug.xcconfig"; sourceTree = "<group>"; };
+		D02362C4D7610E7EE1E942D8 /* Pods_MuniCmulacati.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuniCmulacati.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046AE11F2D0FBBB800BF350F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795BCA79ACF38AE7644DF2E0 /* Pods_MuniCmulacati.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0463D9682D12726B00D6B925 /* UItCreate */ = {
+			isa = PBXGroup;
+			children = (
+				0463D9692D12729500D6B925 /* UITCreateHLWPartHallowcos.swift */,
+				0463D96A2D12729500D6B925 /* UITCreateHLWPartHallowcos.xib */,
+				0463D9712D129E2400D6B925 /* UITAIAvatoeSetWPartHallowcos.swift */,
+				0463D9722D129E2400D6B925 /* UITAIAvatoeSetWPartHallowcos.xib */,
+				04EE5D742D12AFA500B07780 /* UITAiCreatResultHalwllowcos.swift */,
+				04EE5D752D12AFA500B07780 /* UITAiCreatResultHalwllowcos.xib */,
+			);
+			path = UItCreate;
+			sourceTree = "<group>";
+		};
+		046AE1192D0FBBB800BF350F = {
+			isa = PBXGroup;
+			children = (
+				046AE1432D0FBBC000BF350F /* MuniCmulacati */,
+				046AE1232D0FBBB800BF350F /* Products */,
+				39E6EAA2F78BF1CDB55F5DF9 /* Pods */,
+				9D77B6AAD281422AB1A051FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046AE1232D0FBBB800BF350F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046AE1222D0FBBB800BF350F /* MuniCmulacati.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046AE1432D0FBBC000BF350F /* MuniCmulacati */ = {
+			isa = PBXGroup;
+			children = (
+				04AB9B742D3100ED00F427AD /* MuniCmulacati.entitlements */,
+				046AE1992D111A5600BF350F /* UITChat */,
+				046AE1772D0FC36E00BF350F /* UITMine */,
+				046AE1722D0FC32900BF350F /* UITBUiCommen */,
+				046AE1672D0FC23A00BF350F /* UITcommuty */,
+				046AE1562D0FC14100BF350F /* UITJoinHome */,
+				046AE14B2D0FC0BA00BF350F /* UITSign */,
+				046AE13A2D0FBBC000BF350F /* AppDelegate.swift */,
+				046AE13B2D0FBBC000BF350F /* Assets.xcassets */,
+				046AE13C2D0FBBC000BF350F /* Info.plist */,
+				046AE13E2D0FBBC000BF350F /* LaunchScreen.storyboard */,
+				046AE1542D0FC13500BF350F /* UITBottleHallowcos.swift */,
+			);
+			path = MuniCmulacati;
+			sourceTree = "<group>";
+		};
+		046AE14B2D0FC0BA00BF350F /* UITSign */ = {
+			isa = PBXGroup;
+			children = (
+				046AE14C2D0FC0F100BF350F /* UITSignHallowcos.swift */,
+				046AE14D2D0FC0F100BF350F /* UITSignHallowcos.xib */,
+				046AE1502D0FC10500BF350F /* UITEluasHallowcos.swift */,
+				046AE1512D0FC10500BF350F /* UITEluasHallowcos.xib */,
+			);
+			path = UITSign;
+			sourceTree = "<group>";
+		};
+		046AE1562D0FC14100BF350F /* UITJoinHome */ = {
+			isa = PBXGroup;
+			children = (
+				0463D9682D12726B00D6B925 /* UItCreate */,
+				046AE1922D10154200BF350F /* UITView */,
+				046AE1572D0FC18200BF350F /* UITPartyHallowcos.swift */,
+				046AE1582D0FC18200BF350F /* UITPartyHallowcos.xib */,
+				046AE19A2D111A9400BF350F /* UITReadyPartyHallowcos.swift */,
+				046AE19B2D111A9400BF350F /* UITReadyPartyHallowcos.xib */,
+				046AE19E2D11208C00BF350F /* UITPartyLivewHallowcos.swift */,
+				046AE19F2D11208C00BF350F /* UITPartyLivewHallowcos.xib */,
+				0463D96D2D127A0B00D6B925 /* UITMinHLWPartHallowcos.swift */,
+				0463D96E2D127A0B00D6B925 /* UITMinHLWPartHallowcos.xib */,
+				04EE5D782D12B5EE00B07780 /* UITMESAGHalwllowcos.swift */,
+				04EE5D792D12B5EE00B07780 /* UITMESAGHalwllowcos.xib */,
+			);
+			path = UITJoinHome;
+			sourceTree = "<group>";
+		};
+		046AE1672D0FC23A00BF350F /* UITcommuty */ = {
+			isa = PBXGroup;
+			children = (
+				04DB69E72D12C890003A043E /* UITDYView */,
+				046AE16A2D0FC27B00BF350F /* UITSetupCommutytHallowcos.swift */,
+				046AE16B2D0FC27B00BF350F /* UITSetupCommutytHallowcos.xib */,
+				04DB69E32D12C3B0003A043E /* UITCommutytHallowcos.swift */,
+				04DB69E42D12C3B0003A043E /* UITCommutytHallowcos.xib */,
+				046AE16E2D0FC28B00BF350F /* UITXQCommutytHallowcos.swift */,
+				046AE16F2D0FC28B00BF350F /* UITXQCommutytHallowcos.xib */,
+				04DB69EE2D13CB75003A043E /* UITCommentdetailHallwood.swift */,
+				04DB69EF2D13CB75003A043E /* UITCommentdetailHallwood.xib */,
+			);
+			path = UITcommuty;
+			sourceTree = "<group>";
+		};
+		046AE1722D0FC32900BF350F /* UITBUiCommen */ = {
+			isa = PBXGroup;
+			children = (
+				046AE1732D0FC35100BF350F /* UITRepotrytHallowcos.swift */,
+				046AE1742D0FC35100BF350F /* UITRepotrytHallowcos.xib */,
+				046AE1842D0FC3ED00BF350F /* UITWalentINfoHallowcos.swift */,
+				046AE1902D0FC46D00BF350F /* UITMindedcpsplk.swift */,
+				046AE1972D101DF500BF350F /* UITpergerParty.plist */,
+				04E543472D2CD512006184BC /* UITLoakerinder.swift */,
+				04E543492D2CD59C006184BC /* UITLaunchwerHallowcos.swift */,
+				04E5434B2D2CD6BD006184BC /* UITPretendLogrHallowcos.swift */,
+				04E5434D2D2CD6F9006184BC /* UITAreadyLogrHallowcos.swift */,
+			);
+			path = UITBUiCommen;
+			sourceTree = "<group>";
+		};
+		046AE1772D0FC36E00BF350F /* UITMine */ = {
+			isa = PBXGroup;
+			children = (
+				046AE1782D0FC3A300BF350F /* UITMirenHallowcos.swift */,
+				046AE1792D0FC3A300BF350F /* UITMirenHallowcos.xib */,
+				046AE17C2D0FC3B000BF350F /* UITHerHallowcos.swift */,
+				046AE17D2D0FC3B000BF350F /* UITHerHallowcos.xib */,
+				046AE1802D0FC3C700BF350F /* UITEdictINfoHallowcos.swift */,
+				046AE1812D0FC3C700BF350F /* UITEdictINfoHallowcos.xib */,
+				046AE1862D0FC3FE00BF350F /* UITSweetingNfoHallowcos.swift */,
+				046AE1872D0FC3FE00BF350F /* UITSweetingNfoHallowcos.xib */,
+				046AE18C2D0FC42A00BF350F /* UITFeedbackfoHallowcos.swift */,
+				046AE18D2D0FC42A00BF350F /* UITFeedbackfoHallowcos.xib */,
+				044BFDE62D15115100A93A39 /* UITMinAboutusHallwu.swift */,
+				044BFDE72D15115100A93A39 /* UITMinAboutusHallwu.xib */,
+				044BFDEA2D15169600A93A39 /* UITSuserlistfoHallowcos.swift */,
+				044BFDEB2D15169600A93A39 /* UITSuserlistfoHallowcos.xib */,
+			);
+			path = UITMine;
+			sourceTree = "<group>";
+		};
+		046AE1922D10154200BF350F /* UITView */ = {
+			isa = PBXGroup;
+			children = (
+				046AE1932D10157200BF350F /* UITCellPArtyListCell.swift */,
+				046AE1942D10157200BF350F /* UITCellPArtyListCell.xib */,
+				0463D95C2D114C4F00D6B925 /* UITPartyBottomGiftView.swift */,
+				0463D95E2D11533A00D6B925 /* UITPartyGiftCell.swift */,
+				0463D95F2D11533A00D6B925 /* UITPartyGiftCell.xib */,
+				0463D9642D1161EF00D6B925 /* UITPartyMeasgCell.swift */,
+				0463D9662D11644900D6B925 /* UITPartyMeasggisftCell.swift */,
+			);
+			path = UITView;
+			sourceTree = "<group>";
+		};
+		046AE1992D111A5600BF350F /* UITChat */ = {
+			isa = PBXGroup;
+			children = (
+				046AE15F2D0FC1EA00BF350F /* UITInChastHallowcos.swift */,
+				046AE1602D0FC1EA00BF350F /* UITInChastHallowcos.xib */,
+				046AE1632D0FC21D00BF350F /* UITIVisdeoCalltHallowcos.swift */,
+				046AE1642D0FC21D00BF350F /* UITIVisdeoCalltHallowcos.xib */,
+				04EFE6BC2D1416C30016A818 /* UITmesdChatUItCell.swift */,
+			);
+			path = UITChat;
+			sourceTree = "<group>";
+		};
+		04DB69E72D12C890003A043E /* UITDYView */ = {
+			isa = PBXGroup;
+			children = (
+				04DB69E82D12C8AE003A043E /* UITCommutytlisterCell.swift */,
+				04DB69E92D12C8AE003A043E /* UITCommutytlisterCell.xib */,
+				04DB69EC2D12CF19003A043E /* UITCommutyTiouserBu.swift */,
+			);
+			path = UITDYView;
+			sourceTree = "<group>";
+		};
+		39E6EAA2F78BF1CDB55F5DF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB77F75FA54010898BC84592 /* Pods-MuniCmulacati.debug.xcconfig */,
+				27602C8CBA7225240DBFDCEA /* Pods-MuniCmulacati.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D77B6AAD281422AB1A051FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D02362C4D7610E7EE1E942D8 /* Pods_MuniCmulacati.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046AE1212D0FBBB800BF350F /* MuniCmulacati */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046AE1352D0FBBBA00BF350F /* Build configuration list for PBXNativeTarget "MuniCmulacati" */;
+			buildPhases = (
+				BF8A003FCB91C095D647E43D /* [CP] Check Pods Manifest.lock */,
+				046AE11E2D0FBBB800BF350F /* Sources */,
+				046AE11F2D0FBBB800BF350F /* Frameworks */,
+				046AE1202D0FBBB800BF350F /* Resources */,
+				736DB94C7871CD2D74227F3A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuniCmulacati;
+			productName = MuniCmulacati;
+			productReference = 046AE1222D0FBBB800BF350F /* MuniCmulacati.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046AE11A2D0FBBB800BF350F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = UIT;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					046AE1212D0FBBB800BF350F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 046AE11D2D0FBBB800BF350F /* Build configuration list for PBXProject "MuniCmulacati" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046AE1192D0FBBB800BF350F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 046AE1232D0FBBB800BF350F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046AE1212D0FBBB800BF350F /* MuniCmulacati */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046AE1202D0FBBB800BF350F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046AE19D2D111A9400BF350F /* UITReadyPartyHallowcos.xib in Resources */,
+				046AE1702D0FC28B00BF350F /* UITXQCommutytHallowcos.xib in Resources */,
+				04EE5D7B2D12B5EF00B07780 /* UITMESAGHalwllowcos.xib in Resources */,
+				0463D9612D11533A00D6B925 /* UITPartyGiftCell.xib in Resources */,
+				046AE1882D0FC3FE00BF350F /* UITSweetingNfoHallowcos.xib in Resources */,
+				046AE1612D0FC1EA00BF350F /* UITInChastHallowcos.xib in Resources */,
+				04EE5D772D12AFA500B07780 /* UITAiCreatResultHalwllowcos.xib in Resources */,
+				044BFDEC2D15169600A93A39 /* UITSuserlistfoHallowcos.xib in Resources */,
+				046AE1962D10157200BF350F /* UITCellPArtyListCell.xib in Resources */,
+				0463D9742D129E2400D6B925 /* UITAIAvatoeSetWPartHallowcos.xib in Resources */,
+				046AE18E2D0FC42A00BF350F /* UITFeedbackfoHallowcos.xib in Resources */,
+				046AE17E2D0FC3B000BF350F /* UITHerHallowcos.xib in Resources */,
+				046AE1822D0FC3C700BF350F /* UITEdictINfoHallowcos.xib in Resources */,
+				04DB69E62D12C3B0003A043E /* UITCommutytHallowcos.xib in Resources */,
+				046AE1752D0FC35100BF350F /* UITRepotrytHallowcos.xib in Resources */,
+				046AE17A2D0FC3A300BF350F /* UITMirenHallowcos.xib in Resources */,
+				046AE1442D0FBBC000BF350F /* Assets.xcassets in Resources */,
+				0463D96C2D12729500D6B925 /* UITCreateHLWPartHallowcos.xib in Resources */,
+				046AE1462D0FBBC000BF350F /* LaunchScreen.storyboard in Resources */,
+				046AE1522D0FC10500BF350F /* UITEluasHallowcos.xib in Resources */,
+				046AE14E2D0FC0F100BF350F /* UITSignHallowcos.xib in Resources */,
+				0463D9702D127A0B00D6B925 /* UITMinHLWPartHallowcos.xib in Resources */,
+				046AE1592D0FC18200BF350F /* UITPartyHallowcos.xib in Resources */,
+				044BFDE92D15115200A93A39 /* UITMinAboutusHallwu.xib in Resources */,
+				046AE16C2D0FC27B00BF350F /* UITSetupCommutytHallowcos.xib in Resources */,
+				046AE1A02D11208C00BF350F /* UITPartyLivewHallowcos.xib in Resources */,
+				046AE1652D0FC21D00BF350F /* UITIVisdeoCalltHallowcos.xib in Resources */,
+				04DB69F12D13CB75003A043E /* UITCommentdetailHallwood.xib in Resources */,
+				04DB69EB2D12C8AE003A043E /* UITCommutytlisterCell.xib in Resources */,
+				046AE1982D101DF500BF350F /* UITpergerParty.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		736DB94C7871CD2D74227F3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuniCmulacati/Pods-MuniCmulacati-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuniCmulacati/Pods-MuniCmulacati-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MuniCmulacati/Pods-MuniCmulacati-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF8A003FCB91C095D647E43D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuniCmulacati-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046AE11E2D0FBBB800BF350F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046AE15A2D0FC18200BF350F /* UITPartyHallowcos.swift in Sources */,
+				046AE1622D0FC1EA00BF350F /* UITInChastHallowcos.swift in Sources */,
+				046AE17B2D0FC3A300BF350F /* UITMirenHallowcos.swift in Sources */,
+				046AE1662D0FC21D00BF350F /* UITIVisdeoCalltHallowcos.swift in Sources */,
+				046AE16D2D0FC27B00BF350F /* UITSetupCommutytHallowcos.swift in Sources */,
+				04E5434A2D2CD59C006184BC /* UITLaunchwerHallowcos.swift in Sources */,
+				0463D9652D1161EF00D6B925 /* UITPartyMeasgCell.swift in Sources */,
+				04E5434C2D2CD6BD006184BC /* UITPretendLogrHallowcos.swift in Sources */,
+				046AE1952D10157200BF350F /* UITCellPArtyListCell.swift in Sources */,
+				0463D96F2D127A0B00D6B925 /* UITMinHLWPartHallowcos.swift in Sources */,
+				04DB69EA2D12C8AE003A043E /* UITCommutytlisterCell.swift in Sources */,
+				046AE1532D0FC10500BF350F /* UITEluasHallowcos.swift in Sources */,
+				046AE1892D0FC3FE00BF350F /* UITSweetingNfoHallowcos.swift in Sources */,
+				046AE1912D0FC46D00BF350F /* UITMindedcpsplk.swift in Sources */,
+				046AE1832D0FC3C700BF350F /* UITEdictINfoHallowcos.swift in Sources */,
+				044BFDED2D15169600A93A39 /* UITSuserlistfoHallowcos.swift in Sources */,
+				0463D95D2D114C4F00D6B925 /* UITPartyBottomGiftView.swift in Sources */,
+				044BFDE82D15115100A93A39 /* UITMinAboutusHallwu.swift in Sources */,
+				04EE5D7A2D12B5EF00B07780 /* UITMESAGHalwllowcos.swift in Sources */,
+				04E543482D2CD512006184BC /* UITLoakerinder.swift in Sources */,
+				046AE17F2D0FC3B000BF350F /* UITHerHallowcos.swift in Sources */,
+				0463D9732D129E2400D6B925 /* UITAIAvatoeSetWPartHallowcos.swift in Sources */,
+				0463D9602D11533A00D6B925 /* UITPartyGiftCell.swift in Sources */,
+				04E5434E2D2CD6F9006184BC /* UITAreadyLogrHallowcos.swift in Sources */,
+				046AE14F2D0FC0F100BF350F /* UITSignHallowcos.swift in Sources */,
+				046AE1762D0FC35100BF350F /* UITRepotrytHallowcos.swift in Sources */,
+				0463D9672D11644900D6B925 /* UITPartyMeasggisftCell.swift in Sources */,
+				04DB69E52D12C3B0003A043E /* UITCommutytHallowcos.swift in Sources */,
+				046AE1852D0FC3ED00BF350F /* UITWalentINfoHallowcos.swift in Sources */,
+				046AE1712D0FC28B00BF350F /* UITXQCommutytHallowcos.swift in Sources */,
+				046AE1482D0FBBC000BF350F /* AppDelegate.swift in Sources */,
+				04EE5D762D12AFA500B07780 /* UITAiCreatResultHalwllowcos.swift in Sources */,
+				04EFE6BD2D1416C30016A818 /* UITmesdChatUItCell.swift in Sources */,
+				046AE1552D0FC13500BF350F /* UITBottleHallowcos.swift in Sources */,
+				046AE19C2D111A9400BF350F /* UITReadyPartyHallowcos.swift in Sources */,
+				04DB69F02D13CB75003A043E /* UITCommentdetailHallwood.swift in Sources */,
+				046AE1A12D11208C00BF350F /* UITPartyLivewHallowcos.swift in Sources */,
+				0463D96B2D12729500D6B925 /* UITCreateHLWPartHallowcos.swift in Sources */,
+				04DB69ED2D12CF19003A043E /* UITCommutyTiouserBu.swift in Sources */,
+				046AE18F2D0FC42A00BF350F /* UITFeedbackfoHallowcos.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		046AE13E2D0FBBC000BF350F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046AE13D2D0FBBC000BF350F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046AE1362D0FBBBA00BF350F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB77F75FA54010898BC84592 /* Pods-MuniCmulacati.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MuniCmulacati/MuniCmulacati.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuniCmulacati/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Hicola;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Hicola needs to access your camera permissions to take photos, upload avatars, upload dynamic images, and make audio and video calls";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Hicola need access  to  the  location permissions to use the iCloud camera's location.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Hicola needs to access your microphone to send voice messages and make audio and video calls";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Hicola needs access to your photo album to take photos, upload or download avatars, and upload dynamic images";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aunicmu.coulas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		046AE1372D0FBBBA00BF350F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27602C8CBA7225240DBFDCEA /* Pods-MuniCmulacati.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MuniCmulacati/MuniCmulacati.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuniCmulacati/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Hicola;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Hicola needs to access your camera permissions to take photos, upload avatars, upload dynamic images, and make audio and video calls";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Hicola need access  to  the  location permissions to use the iCloud camera's location.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Hicola needs to access your microphone to send voice messages and make audio and video calls";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Hicola needs access to your photo album to take photos, upload or download avatars, and upload dynamic images";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aunicmu.coulas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		046AE1382D0FBBBA00BF350F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046AE1392D0FBBBA00BF350F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046AE11D2D0FBBB800BF350F /* Build configuration list for PBXProject "MuniCmulacati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046AE1382D0FBBBA00BF350F /* Debug */,
+				046AE1392D0FBBBA00BF350F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046AE1352D0FBBBA00BF350F /* Build configuration list for PBXNativeTarget "MuniCmulacati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046AE1362D0FBBBA00BF350F /* Debug */,
+				046AE1372D0FBBBA00BF350F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046AE11A2D0FBBB800BF350F /* Project object */;
+}

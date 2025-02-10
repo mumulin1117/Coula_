@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UITRepotrytHallowcos" customModule="MuniCmulacati" customModuleProvider="target">
+            <connections>
+                <outlet property="detailenterUIT" destination="RQm-4u-dC1" id="uaK-YK-4FJ"/>
+                <outlet property="falseinfousUIT" destination="31L-0S-H2H" id="6FG-MC-b2w"/>
+                <outlet property="harmasUIT" destination="s4V-2R-iX2" id="mzQ-EV-d8j"/>
+                <outlet property="maliciousUIT" destination="JXA-WW-53z" id="yvA-NO-Qgc"/>
+                <outlet property="porgraousUIT" destination="gCe-eu-EfX" id="zD7-40-UYG"/>
+                <outlet property="submieterUIT" destination="RgM-6N-Uac" id="gB4-Dg-Qdj"/>
+                <outlet property="view" destination="qX9-d4-3TC" id="Opy-pC-PiJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="qX9-d4-3TC">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="siginbigbg_UIT" translatesAutoresizingMaskIntoConstraints="NO" id="hOF-wu-4fy">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="repoUIdabig" translatesAutoresizingMaskIntoConstraints="NO" id="BFl-Eu-ckf">
+                    <rect key="frame" x="12" y="124" width="366" height="562"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4V-2R-iX2">
+                    <rect key="frame" x="32" y="185" width="326" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="s4l-bU-jfx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Harassment" backgroundImage="unpickedREasonbg">
+                        <color key="titleColor" red="0.79607843137254897" green="0.77647058823529413" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" backgroundImage="pickedREasonbg">
+                        <color key="titleColor" red="0.61960784313725492" green="0.26666666666666666" blue="0.019607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="pickerRechnowerUIT:" destination="-1" eventType="touchUpInside" id="ryb-3j-tzh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RgM-6N-Uac">
+                    <rect key="frame" x="115" y="738" width="160" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="FPe-JW-LgB"/>
+                        <constraint firstAttribute="width" constant="160" id="jaE-P3-NSh"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="repoUITtijiao"/>
+                    <connections>
+                        <action selector="pickerRechnowerUIT:" destination="-1" eventType="touchUpInside" id="M5e-xj-8H8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="99" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Emo-T8-EIY">
+                    <rect key="frame" x="12" y="57" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="Q2J-gl-w5C"/>
+                        <constraint firstAttribute="width" constant="24" id="SNK-eg-KZf"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="paUIT_back"/>
+                    <connections>
+                        <action selector="pickerRechnowerUIT:" destination="-1" eventType="touchUpInside" id="q8t-EG-1A5"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtK-7f-QOv">
+                    <rect key="frame" x="167.66666666666666" y="58" width="54.666666666666657" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="titledREasonbg" translatesAutoresizingMaskIntoConstraints="NO" id="x5i-WO-SEf">
+                    <rect key="frame" x="109.66666666666669" y="98" width="171" height="63"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="63" id="GAp-NU-zpx"/>
+                        <constraint firstAttribute="width" constant="171" id="eeF-I8-sYj"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCe-eu-EfX">
+                    <rect key="frame" x="32" y="289" width="326" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="eaY-hs-77H"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Pornography" backgroundImage="unpickedREasonbg">
+                        <color key="titleColor" red="0.79607843140000001" green="0.77647058820000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="Pornography" backgroundImage="pickedREasonbg">
+                        <color key="titleColor" red="0.61960784310000006" green="0.2666666667" blue="0.019607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="pickerRechnowerUIT:" destination="-1" eventType="touchUpInside" id="Oz6-N6-NLN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31L-0S-H2H">
+                    <rect key="frame" x="32" y="341" width="326" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="9Ip-Cu-BOl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="False Information" backgroundImage="unpickedREasonbg">
+                        <color key="titleColor" red="0.79607843140000001" green="0.77647058820000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="Pornography" backgroundImage="pickedREasonbg">
+                        <color key="titleColor" red="0.61960784310000006" green="0.2666666667" blue="0.019607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="pickerRechnowerUIT:" destination="-1" eventType="touchUpInside" id="8a0-U6-rVz"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This is text information" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RQm-4u-dC1">
+                    <rect key="frame" x="34" y="395" width="324" height="250"/>
+                    <color key="backgroundColor" red="0.52156862745098043" green="0.49019607843137253" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.79607843137254897" green="0.77647058823529413" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXA-WW-53z">
+                    <rect key="frame" x="32" y="237" width="326" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="3WC-an-jLW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Malicious fraud" backgroundImage="unpickedREasonbg">
+                        <color key="titleColor" red="0.79607843140000001" green="0.77647058820000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" backgroundImage="pickedREasonbg">
+                        <color key="titleColor" red="0.61960784310000006" green="0.2666666667" blue="0.019607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="pickerRechnowerUIT:" destination="-1" eventType="touchUpInside" id="sOI-c9-gcg"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rD4-ty-YHK">
+                    <rect key="frame" x="59" y="431" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="1H5-rU-4lZ"/>
+                        <constraint firstAttribute="height" constant="30" id="WbD-6L-xwI"/>
+                    </constraints>
+                    <menu key="menu" id="2S4-hR-LPt">
+                        <children>
+                            <command title="Item 1" id="RtW-ym-A53"/>
+                            <command title="Item 2" id="aao-Wh-zYi"/>
+                        </children>
+                    </menu>
+                    <state key="normal" title="UITuo"/>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylz-ga-WGW">
+                    <rect key="frame" x="286" y="593" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="5p4-P9-7bC"/>
+                        <constraint firstAttribute="height" constant="30" id="8OK-qn-H89"/>
+                    </constraints>
+                    <menu key="menu" id="MsM-TK-smK">
+                        <children>
+                            <command title="Item 1" id="KBO-rn-6yX"/>
+                            <command title="Item 2" id="zK2-3X-6pn"/>
+                        </children>
+                    </menu>
+                    <state key="normal" title="UITuo"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="07t-HW-smp"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="gCe-eu-EfX" firstAttribute="trailing" secondItem="JXA-WW-53z" secondAttribute="trailing" id="0G0-9p-oGH"/>
+                <constraint firstItem="hOF-wu-4fy" firstAttribute="trailing" secondItem="07t-HW-smp" secondAttribute="trailing" id="1nZ-Wc-wLE"/>
+                <constraint firstItem="RQm-4u-dC1" firstAttribute="top" secondItem="31L-0S-H2H" secondAttribute="bottom" constant="12" id="7Bz-l4-PaT"/>
+                <constraint firstAttribute="bottom" secondItem="hOF-wu-4fy" secondAttribute="bottom" id="8a7-qF-oeI"/>
+                <constraint firstItem="RQm-4u-dC1" firstAttribute="leading" secondItem="07t-HW-smp" secondAttribute="leading" constant="34" id="ADw-tr-uCY"/>
+                <constraint firstItem="RgM-6N-Uac" firstAttribute="top" secondItem="BFl-Eu-ckf" secondAttribute="bottom" constant="52" id="Bkf-yx-le4"/>
+                <constraint firstItem="31L-0S-H2H" firstAttribute="top" secondItem="gCe-eu-EfX" secondAttribute="bottom" constant="10" id="CKT-TF-Yql"/>
+                <constraint firstItem="hOF-wu-4fy" firstAttribute="top" secondItem="qX9-d4-3TC" secondAttribute="top" id="Djx-Mi-IDd"/>
+                <constraint firstItem="07t-HW-smp" firstAttribute="bottom" secondItem="ylz-ga-WGW" secondAttribute="bottom" constant="187" id="EgC-ut-HmA"/>
+                <constraint firstItem="JXA-WW-53z" firstAttribute="trailing" secondItem="s4V-2R-iX2" secondAttribute="trailing" id="KOT-jS-Pgv"/>
+                <constraint firstItem="07t-HW-smp" firstAttribute="trailing" secondItem="s4V-2R-iX2" secondAttribute="trailing" constant="32" id="PJe-jn-JbJ"/>
+                <constraint firstItem="gCe-eu-EfX" firstAttribute="top" secondItem="JXA-WW-53z" secondAttribute="bottom" constant="10" id="PSS-bW-qfY"/>
+                <constraint firstItem="x5i-WO-SEf" firstAttribute="top" secondItem="dtK-7f-QOv" secondAttribute="bottom" constant="18" id="Ra6-Cy-FG0"/>
+                <constraint firstItem="rD4-ty-YHK" firstAttribute="leading" secondItem="07t-HW-smp" secondAttribute="leading" constant="59" id="TOD-l6-Fpu"/>
+                <constraint firstItem="07t-HW-smp" firstAttribute="trailing" secondItem="ylz-ga-WGW" secondAttribute="trailing" constant="58" id="VM3-xb-7dr"/>
+                <constraint firstItem="31L-0S-H2H" firstAttribute="leading" secondItem="gCe-eu-EfX" secondAttribute="leading" id="XbV-Jh-P8y"/>
+                <constraint firstItem="07t-HW-smp" firstAttribute="trailing" secondItem="BFl-Eu-ckf" secondAttribute="trailing" constant="12" id="azp-jd-OEG"/>
+                <constraint firstItem="dtK-7f-QOv" firstAttribute="centerY" secondItem="Emo-T8-EIY" secondAttribute="centerY" id="bbd-iY-E5Q"/>
+                <constraint firstItem="JXA-WW-53z" firstAttribute="top" secondItem="s4V-2R-iX2" secondAttribute="bottom" constant="10" id="dCl-Ng-az5"/>
+                <constraint firstItem="RgM-6N-Uac" firstAttribute="top" secondItem="RQm-4u-dC1" secondAttribute="bottom" constant="93" id="frg-eT-aye"/>
+                <constraint firstItem="BFl-Eu-ckf" firstAttribute="leading" secondItem="07t-HW-smp" secondAttribute="leading" constant="12" id="gQM-Zo-Pnb"/>
+                <constraint firstItem="s4V-2R-iX2" firstAttribute="top" secondItem="x5i-WO-SEf" secondAttribute="bottom" constant="24" id="gzl-4K-mho"/>
+                <constraint firstItem="JXA-WW-53z" firstAttribute="leading" secondItem="s4V-2R-iX2" secondAttribute="leading" id="lSR-cK-cB4"/>
+                <constraint firstItem="hOF-wu-4fy" firstAttribute="leading" secondItem="07t-HW-smp" secondAttribute="leading" id="mHo-ou-jpH"/>
+                <constraint firstItem="gCe-eu-EfX" firstAttribute="leading" secondItem="JXA-WW-53z" secondAttribute="leading" id="mM5-lD-WZv"/>
+                <constraint firstItem="31L-0S-H2H" firstAttribute="trailing" secondItem="gCe-eu-EfX" secondAttribute="trailing" id="of1-Uk-uCI"/>
+                <constraint firstItem="s4V-2R-iX2" firstAttribute="leading" secondItem="07t-HW-smp" secondAttribute="leading" constant="32" id="ofO-FK-4B9"/>
+                <constraint firstItem="rD4-ty-YHK" firstAttribute="top" secondItem="31L-0S-H2H" secondAttribute="bottom" constant="48" id="pUK-J7-0ou"/>
+                <constraint firstItem="BFl-Eu-ckf" firstAttribute="top" secondItem="dtK-7f-QOv" secondAttribute="bottom" constant="44" id="pw0-sE-1lI"/>
+                <constraint firstItem="Emo-T8-EIY" firstAttribute="top" secondItem="07t-HW-smp" secondAttribute="top" constant="10" id="qbj-Qj-6hG"/>
+                <constraint firstItem="dtK-7f-QOv" firstAttribute="centerX" secondItem="qX9-d4-3TC" secondAttribute="centerX" id="rxr-Hp-bkt"/>
+                <constraint firstItem="07t-HW-smp" firstAttribute="trailing" secondItem="RQm-4u-dC1" secondAttribute="trailing" constant="32" id="sf1-oK-x9w"/>
+                <constraint firstItem="07t-HW-smp" firstAttribute="bottom" secondItem="RgM-6N-Uac" secondAttribute="bottom" constant="30" id="uAV-In-s3w"/>
+                <constraint firstItem="x5i-WO-SEf" firstAttribute="centerX" secondItem="qX9-d4-3TC" secondAttribute="centerX" id="uyu-Db-TkA"/>
+                <constraint firstItem="RgM-6N-Uac" firstAttribute="centerX" secondItem="qX9-d4-3TC" secondAttribute="centerX" id="xaT-kf-htm"/>
+                <constraint firstItem="Emo-T8-EIY" firstAttribute="leading" secondItem="07t-HW-smp" secondAttribute="leading" constant="12" id="z6t-2O-Lii"/>
+            </constraints>
+            <point key="canvasLocation" x="135.19999999999999" y="20.239880059970016"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="paUIT_back" width="24" height="24"/>
+        <image name="pickedREasonbg" width="319" height="44"/>
+        <image name="repoUITtijiao" width="160" height="44"/>
+        <image name="repoUIdabig" width="351" height="468"/>
+        <image name="siginbigbg_UIT" width="375" height="812"/>
+        <image name="titledREasonbg" width="171" height="50"/>
+        <image name="unpickedREasonbg" width="319" height="44"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

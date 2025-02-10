@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UITAiCreatResultHalwllowcos" customModule="MuniCmulacati" customModuleProvider="target">
+            <connections>
+                <outlet property="getResultUIT" destination="1cZ-gY-40V" id="lYo-cD-KnN"/>
+                <outlet property="view" destination="dq2-m0-XmD" id="rs9-tJ-YPR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="dq2-m0-XmD">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="siginbigbg_UIT" translatesAutoresizingMaskIntoConstraints="NO" id="hB5-cD-3lZ">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAl-eQ-SLL">
+                    <rect key="frame" x="12" y="69" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="nZg-R3-B4l"/>
+                        <constraint firstAttribute="width" constant="24" id="q2V-hW-qOn"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="paUIT_back"/>
+                    <connections>
+                        <action selector="noeengUITpock:" destination="-1" eventType="touchUpInside" id="ZtD-h4-Rew"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Generate results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJg-zL-Jq8">
+                    <rect key="frame" x="130" y="70" width="133" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjo-Te-Rdq">
+                    <rect key="frame" x="116.66666666666669" y="756" width="160" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="Yiw-hE-NBw"/>
+                        <constraint firstAttribute="width" constant="160" id="oEO-kP-QUV"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="uITbg_Download"/>
+                    <connections>
+                        <action selector="downloadCurrentResultUIT:" destination="-1" eventType="touchUpInside" id="NyH-Oa-BeK"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1cZ-gY-40V">
+                    <rect key="frame" x="16" y="119" width="361" height="614"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="AwW-zV-wZQ"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="FAl-eQ-SLL" firstAttribute="leading" secondItem="AwW-zV-wZQ" secondAttribute="leading" constant="12" id="17p-UF-ydj"/>
+                <constraint firstAttribute="bottom" secondItem="hB5-cD-3lZ" secondAttribute="bottom" id="7YA-OK-t28"/>
+                <constraint firstItem="pJg-zL-Jq8" firstAttribute="centerX" secondItem="dq2-m0-XmD" secondAttribute="centerX" id="B0d-FZ-F1Z"/>
+                <constraint firstItem="hB5-cD-3lZ" firstAttribute="trailing" secondItem="AwW-zV-wZQ" secondAttribute="trailing" id="BI8-6c-ZQR"/>
+                <constraint firstItem="FAl-eQ-SLL" firstAttribute="top" secondItem="AwW-zV-wZQ" secondAttribute="top" constant="10" id="JRI-YB-0TP"/>
+                <constraint firstItem="AwW-zV-wZQ" firstAttribute="bottom" secondItem="xjo-Te-Rdq" secondAttribute="bottom" constant="20" id="Q5K-Ww-vXR"/>
+                <constraint firstItem="1cZ-gY-40V" firstAttribute="leading" secondItem="AwW-zV-wZQ" secondAttribute="leading" constant="16" id="Wia-7z-CH5"/>
+                <constraint firstItem="1cZ-gY-40V" firstAttribute="top" secondItem="FAl-eQ-SLL" secondAttribute="bottom" constant="26" id="aKo-mV-Dvg"/>
+                <constraint firstItem="hB5-cD-3lZ" firstAttribute="leading" secondItem="AwW-zV-wZQ" secondAttribute="leading" id="bjk-Yi-GUZ"/>
+                <constraint firstItem="xjo-Te-Rdq" firstAttribute="centerX" secondItem="dq2-m0-XmD" secondAttribute="centerX" id="f53-1d-L77"/>
+                <constraint firstItem="pJg-zL-Jq8" firstAttribute="centerY" secondItem="FAl-eQ-SLL" secondAttribute="centerY" id="k9b-6d-pD8"/>
+                <constraint firstItem="AwW-zV-wZQ" firstAttribute="trailing" secondItem="1cZ-gY-40V" secondAttribute="trailing" constant="16" id="sOS-XX-LDT"/>
+                <constraint firstItem="xjo-Te-Rdq" firstAttribute="top" secondItem="1cZ-gY-40V" secondAttribute="bottom" constant="23" id="uz0-e2-6bm"/>
+                <constraint firstItem="hB5-cD-3lZ" firstAttribute="top" secondItem="dq2-m0-XmD" secondAttribute="top" id="zWi-Ye-awD"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="paUIT_back" width="24" height="24"/>
+        <image name="siginbigbg_UIT" width="375" height="812"/>
+        <image name="uITbg_Download" width="160" height="44"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

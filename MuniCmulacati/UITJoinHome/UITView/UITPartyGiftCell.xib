@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="UITPartyGiftCellID" id="gTV-IL-0wX" customClass="UITPartyGiftCell" customModule="MuniCmulacati" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="217" height="161"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="217" height="161"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="piB-nc-VSI">
+                        <rect key="frame" x="78.666666666666671" y="12" width="60.000000000000014" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="aE0-ei-ojK"/>
+                            <constraint firstAttribute="height" constant="60" id="c5e-8f-Q7o"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gitUIT_gold" translatesAutoresizingMaskIntoConstraints="NO" id="oRa-Sd-2Mz">
+                        <rect key="frame" x="85.666666666666671" y="80" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="aAL-U7-Uon"/>
+                            <constraint firstAttribute="width" constant="22" id="b9B-jf-nfg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="188" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVf-rt-4BO">
+                        <rect key="frame" x="111.66666666666667" y="83.666666666666671" width="23.000000000000014" height="15"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wq7-Zt-b4q">
+                        <rect key="frame" x="44" y="23" width="46" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="fwU-G2-wYV"/>
+                            <constraint firstAttribute="width" constant="46" id="xa4-Bw-gNP"/>
+                        </constraints>
+                        <menu key="menu" id="6Fv-o1-er0">
+                            <children>
+                                <command title="Item 1" id="tuO-XI-yyB"/>
+                                <command title="Item 2" id="oG9-40-zlb"/>
+                            </children>
+                        </menu>
+                        <state key="normal" title="UITuo"/>
+                    </button>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mX-Hz-A84">
+                        <rect key="frame" x="133" y="131" width="46" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="46" id="M3X-ff-dnH"/>
+                            <constraint firstAttribute="height" constant="30" id="fC9-bg-SZA"/>
+                        </constraints>
+                        <menu key="menu" id="vAn-xf-Vb6">
+                            <children>
+                                <command title="Item 1" id="16S-Er-jcg"/>
+                                <command title="Item 2" id="MCK-sm-aj6"/>
+                            </children>
+                        </menu>
+                        <state key="normal" title="UITuo"/>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="oRa-Sd-2Mz" firstAttribute="top" secondItem="piB-nc-VSI" secondAttribute="bottom" constant="8" id="4Mf-13-3aY"/>
+                <constraint firstItem="wq7-Zt-b4q" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="23" id="FVr-0Y-6Ue"/>
+                <constraint firstItem="piB-nc-VSI" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="NIx-vh-T1u"/>
+                <constraint firstItem="xVf-rt-4BO" firstAttribute="leading" secondItem="oRa-Sd-2Mz" secondAttribute="trailing" constant="4.3300000000000001" id="Otz-CO-x8X"/>
+                <constraint firstAttribute="trailing" secondItem="1mX-Hz-A84" secondAttribute="trailing" constant="38" id="V4c-ie-7hH"/>
+                <constraint firstItem="piB-nc-VSI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="YzM-ic-aqG"/>
+                <constraint firstItem="oRa-Sd-2Mz" firstAttribute="leading" secondItem="piB-nc-VSI" secondAttribute="leading" constant="7" id="ZI4-ha-Eki"/>
+                <constraint firstAttribute="bottom" secondItem="1mX-Hz-A84" secondAttribute="bottom" symbolic="YES" id="uHY-8U-r9R"/>
+                <constraint firstItem="xVf-rt-4BO" firstAttribute="centerY" secondItem="oRa-Sd-2Mz" secondAttribute="centerY" id="xbe-tA-csm"/>
+                <constraint firstItem="wq7-Zt-b4q" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="44" id="yfL-gT-44V"/>
+            </constraints>
+            <size key="customSize" width="217" height="161"/>
+            <connections>
+                <outlet property="singneedCoinUIT" destination="xVf-rt-4BO" id="EA8-jT-HA0"/>
+                <outlet property="uitgiftIcon" destination="piB-nc-VSI" id="8j2-hX-EsX"/>
+            </connections>
+            <point key="canvasLocation" x="266.41221374045801" y="59.507042253521128"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="gitUIT_gold" width="22" height="22"/>
+    </resources>
+</document>

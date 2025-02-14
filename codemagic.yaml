@@ -14,7 +14,7 @@ workflows:
         XCODE_WORKSPACE: MuniCmulacati.xcworkspace # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "MuniCmulacati" # <-- Put the name of your Xcode scheme here
 #        APP_STORE_APPLE_ID: 6739766294
-      xcode: latest
+      xcode: "16.1"
       cocoapods: default
     scripts:
       - name: Install CocoaPods dependencies

@@ -10,7 +10,7 @@ target 'MuniCmulacati' do
 pod 'IQKeyboardManager'
 
 pod 'SnapKit'
-pod 'FBSDKCoreKit'
+#pod 'FBSDKCoreKit'
 pod 'SwiftyStoreKit'
 
 pod 'Alamofire'

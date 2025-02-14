@@ -61,9 +61,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                 cosplayClout += 2
             }else{
                 cosplayClout += 3
-               
             }
-            
         }
 
 

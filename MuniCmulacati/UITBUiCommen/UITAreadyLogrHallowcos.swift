@@ -4,9 +4,9 @@
 //
 //  Created by MuniCmulacati on 2025/1/7.
 //
-import WebKit
+
 import UIKit
-//@preconcurrency import FBSDKCoreKit
+@preconcurrency import FBSDKCoreKit
 import UIKit
 import Alamofire
 import SwiftyStoreKit
@@ -475,7 +475,7 @@ class UITAreadyLogrHallowcos: UIViewController ,WKNavigationDelegate, WKUIDelega
                 
                 let pinUIT = "amount@#$currency@#$USD".components(separatedBy: "@#$")
                 
-//                AppEvents.shared.logEvent(.initiatedCheckout, parameters: [AppEvents.ParameterName.init(pinUIT[0]) : showinchoicedssUIT.2,AppEvents.ParameterName.init(pinUIT[1]):pinUIT[2]])
+                AppEvents.shared.logEvent(.initiatedCheckout, parameters: [AppEvents.ParameterName.init(pinUIT[0]) : showinchoicedssUIT.2,AppEvents.ParameterName.init(pinUIT[1]):pinUIT[2]])
             }
             
             SwiftyStoreKit.purchaseProduct(hoicedssIDUIT, atomically: true) { psResult in
@@ -577,7 +577,7 @@ class UITAreadyLogrHallowcos: UIViewController ,WKNavigationDelegate, WKUIDelega
                                 }
                                 if cosplayClout >= 5 {
                                     let pinUIT = "totalPrice@#$currency@#$USD".components(separatedBy: "@#$")
-//                                    AppEvents.shared.logEvent(.purchased, parameters: [AppEvents.ParameterName.init(pinUIT[0]) : showinchoicedssUIT.2,AppEvents.ParameterName.init(pinUIT[1]):pinUIT[2]])
+                                    AppEvents.shared.logEvent(.purchased, parameters: [AppEvents.ParameterName.init(pinUIT[0]) : showinchoicedssUIT.2,AppEvents.ParameterName.init(pinUIT[1]):pinUIT[2]])
                                 }
                                
                             }

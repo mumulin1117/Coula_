@@ -1,5 +1,11 @@
 PODS:
   - Alamofire (5.10.0)
+  - FBAEMKit (17.4.0):
+    - FBSDKCoreKit_Basics (= 17.4.0)
+  - FBSDKCoreKit (17.4.0):
+    - FBAEMKit (= 17.4.0)
+    - FBSDKCoreKit_Basics (= 17.4.0)
+  - FBSDKCoreKit_Basics (17.4.0)
   - IQKeyboardManager (6.5.19)
   - MBProgressHUD (1.2.0)
   - SnapKit (5.7.1)
@@ -8,6 +14,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - FBSDKCoreKit
   - IQKeyboardManager
   - MBProgressHUD
   - SnapKit
@@ -17,6 +24,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
     - IQKeyboardManager
     - MBProgressHUD
     - SnapKit
@@ -25,12 +35,15 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: cd0b98508df05796dd2ff278f3bb055a631b5390
+  FBAEMKit: 58cb5f302cdd715a56d4c1d0dfdd2e423ac1421a
+  FBSDKCoreKit: 94d7461d0cecf441b1ba7c41acfff41daa8ccd41
+  FBSDKCoreKit_Basics: 151b43db8b834d3f0e02f95d36a44ffd36265e45
   IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
   ZCycleView: 7826fb8439486339ed099b0979d9b564a2937ab0
 
-PODFILE CHECKSUM: 730d0f41e1bc52e7560faff9fbe67cdfaaf06b47
+PODFILE CHECKSUM: 1807dd2641825215a491e30c7f729c893b0ed543
 
 COCOAPODS: 1.16.2

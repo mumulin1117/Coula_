@@ -68,6 +68,7 @@
 		04DB69ED2D12CF19003A043E /* UITCommutyTiouserBu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB69EC2D12CF19003A043E /* UITCommutyTiouserBu.swift */; };
 		04DB69F02D13CB75003A043E /* UITCommentdetailHallwood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB69EE2D13CB75003A043E /* UITCommentdetailHallwood.swift */; };
 		04DB69F12D13CB75003A043E /* UITCommentdetailHallwood.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DB69EF2D13CB75003A043E /* UITCommentdetailHallwood.xib */; };
+		04E083292D62D5C800A8FD1A /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 04E083282D62D5C800A8FD1A /* MBProgressHUD */; };
 		04E543482D2CD512006184BC /* UITLoakerinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543472D2CD512006184BC /* UITLoakerinder.swift */; };
 		04E5434A2D2CD59C006184BC /* UITLaunchwerHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543492D2CD59C006184BC /* UITLaunchwerHallowcos.swift */; };
 		04E5434C2D2CD6BD006184BC /* UITPretendLogrHallowcos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5434B2D2CD6BD006184BC /* UITPretendLogrHallowcos.swift */; };
@@ -145,6 +146,7 @@
 		04DB69EC2D12CF19003A043E /* UITCommutyTiouserBu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITCommutyTiouserBu.swift; sourceTree = "<group>"; };
 		04DB69EE2D13CB75003A043E /* UITCommentdetailHallwood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITCommentdetailHallwood.swift; sourceTree = "<group>"; };
 		04DB69EF2D13CB75003A043E /* UITCommentdetailHallwood.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITCommentdetailHallwood.xib; sourceTree = "<group>"; };
+		04E0832A2D62D8A800A8FD1A /* MuniCmulacatiRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MuniCmulacatiRelease.entitlements; sourceTree = "<group>"; };
 		04E543472D2CD512006184BC /* UITLoakerinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITLoakerinder.swift; sourceTree = "<group>"; };
 		04E543492D2CD59C006184BC /* UITLaunchwerHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITLaunchwerHallowcos.swift; sourceTree = "<group>"; };
 		04E5434B2D2CD6BD006184BC /* UITPretendLogrHallowcos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITPretendLogrHallowcos.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E083292D62D5C800A8FD1A /* MBProgressHUD in Frameworks */,
 				795BCA79ACF38AE7644DF2E0 /* Pods_MuniCmulacati.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +208,7 @@
 		046AE1432D0FBBC000BF350F /* MuniCmulacati */ = {
 			isa = PBXGroup;
 			children = (
+				04E0832A2D62D8A800A8FD1A /* MuniCmulacatiRelease.entitlements */,
 				04AB9B742D3100ED00F427AD /* MuniCmulacati.entitlements */,
 				046AE1992D111A5600BF350F /* UITChat */,
 				046AE1772D0FC36E00BF350F /* UITMine */,
@@ -404,6 +408,9 @@
 			);
 			mainGroup = 046AE1192D0FBBB800BF350F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				04E083272D62D5C800A8FD1A /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 046AE1232D0FBBB800BF350F /* Products */;
 			projectDirPath = "";
@@ -567,7 +574,7 @@
 				CODE_SIGN_ENTITLEMENTS = MuniCmulacati/MuniCmulacati.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				EXCLUDED_ARCHS = "";
@@ -608,10 +615,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MuniCmulacati/MuniCmulacati.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MuniCmulacati/MuniCmulacatiRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				EXCLUDED_ARCHS = "";
@@ -787,6 +794,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04E083272D62D5C800A8FD1A /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04E083282D62D5C800A8FD1A /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04E083272D62D5C800A8FD1A /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 046AE11A2D0FBBB800BF350F /* Project object */;
 }

@@ -14,8 +14,9 @@ pod 'FBSDKCoreKit'
 pod 'SwiftyStoreKit'
 
 pod 'Alamofire'
-pod 'MBProgressHUD'
+#pod 'MBProgressHUD'
 pod 'ZCycleView'
+
 end
 
 post_install do |installer_representation|
@@ -28,4 +29,3 @@ target.build_configurations.each do |config|
 end
 end
 end
-

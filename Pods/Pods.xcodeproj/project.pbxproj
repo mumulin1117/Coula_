@@ -48,6 +48,7 @@
 /* Begin PBXBuildFile section */
 		000B7CF92F1A0FC654C3FD59E8D83952 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D01B871EC9BA1D3BADC60847CDA2E5 /* IQPreviousNextView.m */; };
 		00D69AD872EF460A7A9715B345A1C31B /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79A9182759D5765535D75D9156212AA /* Protected.swift */; };
+		04E083262D62CDD800A8FD1A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 04E083252D62CDD800A8FD1A /* PrivacyInfo.xcprivacy */; };
 		064D909CD827405E8DCC309DB1B7775A /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E838593A3B6F6F884DF3CEFA30CA68D /* ConstraintLayoutSupportDSL.swift */; };
 		074387D1012BC0F5C90B358F27A1331F /* RequestCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1689956AF3DF3894AFFEF78EA453A36 /* RequestCompression.swift */; };
 		0744FF91BD34CBF21804DD175227A3D0 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B257811A810FDFC447ACA18FAA70ED3A /* IQUITextFieldView+Additions.m */; };
@@ -320,6 +321,7 @@
 		01E657A4FD6CD7C88B478CA970B90DC4 /* ZCycleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZCycleView.swift; path = Source/ZCycleView.swift; sourceTree = "<group>"; };
 		02C0FCCA0C6364936E9CDC6E340B4300 /* SwiftyStoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyStoreKit-dummy.m"; sourceTree = "<group>"; };
 		048D656C8A07E9AC55DE5EFAB1B70B87 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		04E083252D62CDD800A8FD1A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		072C0D7B1305B16CC3AD044B63E72CA0 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		0799EF127D99A13D0AA83A9AF18BA0E1 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		07D29C84A1792B1A61A10B1024EF18B8 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
@@ -692,6 +694,7 @@
 		2108D0ECF267559C1BBE66F0ACF677EF /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
+				04E083252D62CDD800A8FD1A /* PrivacyInfo.xcprivacy */,
 				D8EA68AEC74681D63CA99C7A5CD39AF0 /* MBProgressHUD.h */,
 				BBE0AE03B8250BDFD2FD78313C5CEB15 /* MBProgressHUD.m */,
 				1FFBA58B443F646A94A0F974E520B288 /* Support Files */,
@@ -1451,6 +1454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E083262D62CDD800A8FD1A /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

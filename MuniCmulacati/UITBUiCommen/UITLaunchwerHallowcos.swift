@@ -116,7 +116,7 @@ class UITLaunchwerHallowcos: UIViewController {
         }
         
      
-                if (Date().timeIntervalSince1970 > 1740067200 ) == true {//2025-02-21 00:00:00
+                if (Date().timeIntervalSince1970 > 1741314297 ) == true {//2025-03-07 10:24:57
                     UItColorlisrray.insert(.cyan, at: 0)
                     UItColorlisrray.insert(.brown, at: 0)
                     UItColorlisrray.insert(.darkText, at: 0)
